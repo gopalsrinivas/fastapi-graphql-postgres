@@ -6,7 +6,6 @@ from sqlalchemy.future import select
 from sqlalchemy import text
 from sqlalchemy.exc import SQLAlchemyError
 
-
 @strawberry.type
 class User:
     id: int
